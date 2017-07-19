@@ -34,9 +34,11 @@
         }
       article {
         margin-left: 180px;
+        margin-top: 40px;
         border-left: 1px solid black;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
+        border-right: 1px solid black;
       }
     </style>
   </head>
@@ -47,6 +49,34 @@
       <header>
         <h1>Divya Mathews</h1>
       </header>
+      <div class="topnav" id="myTopNav">
+        <a href="#home">home</a>
+        <a href="#nova">nova</a>
+        <a href="#music">music</a>
+        <a href="wasting_time">wasting my time</a>
+        <a href="coding_in_dc">coding in dc</a>
+      </div>
+      
+      .topnav {
+          background-color: rgb(150, 10, 36);
+          overflow:hidden;
+      .topnav a {
+          float:left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+      }
+       .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+      }
+       .topnav a.active {
+          background-color:#4CAF50;
+          color: white;
+      }
 
       <nav style="background-color:rgb(218,97,84)">
         <ul>
